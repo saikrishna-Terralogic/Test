@@ -1,7 +1,7 @@
 # Program to find a factorial of a number
 
 num = int(input("Enter an integer for finding factorial : "))
-factorial = 1
+fact = 1
 for i in range(1, int(num)+1):
-    factorial = i*factorial
-print("factorial : ", factorial)
+    fact = i*fact
+print("factorial : ", fact)
